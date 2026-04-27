@@ -43,8 +43,10 @@ workers_compensation_project/
 
 ### 1. Клонирование репозитория
 
-winget install --id Git.Git -e --source winget
-git clone workers_compensation_project
+winget install --id Git.Git -e --source winget|
+
+git clone https://github.com/thevilbat/workers_compensation_project.git
+
 cd workers_compensation_project
 
 ### 2. Создание и активация виртуального окружения (рекомендуется)
